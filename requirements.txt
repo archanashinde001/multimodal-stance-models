@@ -1,0 +1,12 @@
+# Python packages used by multimodal_model_comparison.ipynb
+# The exact versions used for the reported results are listed in results/versions.txt
+torch
+torchvision
+transformers
+accelerate
+scikit-learn
+pandas
+numpy
+matplotlib
+Pillow
+openpyxl
