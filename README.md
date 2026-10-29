@@ -52,9 +52,7 @@ Labels must be one of: `Anti-Mandate`, `Pro-Mandate`, `Neutral`, `Other`. Column
 
 ## Data
 
-The original posts cannot be shared because of platform terms and the privacy of the people who posted them. The `data/` folder contains a **synthetic dataset** in exactly the same format, so the notebook can be run end to end. Results on the synthetic data are meaningless and will not match the reported results; they only show that the code runs.
-
-The original posts cannot be shared because of platform terms and the privacy of the people who posted them. The input format above lets the notebook be run on any dataset with the same structure.
+The data is shared in data folder, it has three input files: text.csv, image.csv and images.zip
 
 ## Models
 
