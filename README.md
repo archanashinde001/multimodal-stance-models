@@ -12,8 +12,8 @@ Every pretrained model is kept **frozen** and turns each post into a vector of n
 |---|---|---|---|
 | C1 | Text models | RoBERTa-base, GPT-Neo-125M, TinyLlama-1.1B, CLIP Text | message label |
 | C2 | Vision models | ResNet18, ViT-B/16, CLIP Image | image label |
-| C3 | CLIP by input | CLIP text only, image only, text + image | both labels |
-| C4 | SmolVLM by input and size | SmolVLM-256M and -500M × text only, image only, text + image | both labels |
+| C3 | Cross-Modal dual encoder | CLIP text only, image only, text + image | both labels |
+| C4 | Vision-Language Model | SmolVLM-256M and -500M × text only, image only, text + image | both labels |
 
 A majority-class reference (always predicting the most common class) is reported in every table. The supplement adds a two-model fusion (RoBERTa + ResNet18), SmolVLM vs CLIP, per-class F1, and balanced accuracy.
 
