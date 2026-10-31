@@ -43,6 +43,10 @@ Tables and figures are written to `/content/study/results`.
 
 The data is shared in dataset folder, it has three input files: post-text.csv, memes.csv and memes.zip
 
+## Supplementary Materials
+
+Interim analysis is shared in the supplementary materials folder, specifically in the Results_For_Accuracy.xlsx
+
 ## Models
 
 All models are downloaded automatically from Hugging Face or torchvision when the notebook runs.
