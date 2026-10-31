@@ -41,7 +41,7 @@ Tables and figures are written to `/content/study/results`.
 
 ## Data
 
-The data is shared in data folder, it has three input files: post-text.csv, memes.csv and memes.zip
+The data is shared in dataset folder, it has three input files: post-text.csv, memes.csv and memes.zip
 
 ## Models
 
